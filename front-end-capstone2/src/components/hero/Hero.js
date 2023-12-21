@@ -1,5 +1,6 @@
 import React from 'react';
 import './hero.css'; // Import your CSS file for styling
+import heroImage from './hero.jpg'
 
 
 function HeroSection() {
@@ -13,7 +14,7 @@ function HeroSection() {
         <button className="reservation-button">Make a Reservation</button>
       </div>
       <div className="food-image">
-        <img src="./assets/hero.png" alt="Delicious Food" />
+        <img src={heroImage} alt="Delicious Food" />
       </div>
     </div>
   );
