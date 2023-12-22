@@ -1,0 +1,29 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-images {
+    width: 45%;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed to match your layout */
+  }
+  
+  .about-images img {
+    width: 48%; /* Adjust the width so images fit side by side */
+    height: auto;
+  }
+
+  .restaurant-description {
+    font-size: 1.2rem;
+   
+  }
+  
+  /* Additional styling for responsiveness and aesthetics as per the design */
+  
