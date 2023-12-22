@@ -1,0 +1,32 @@
+.menu-specials {
+    text-align: center;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .menu-item {
+    width: 30%; /* Adjust the width as needed */
+  
+  }
+  
+  .menu-item img {
+    width: 100%; /* Make the image responsive */
+    height: 50%;
+  }
+  
+  .menu-button {
+    background-color: #FFD700; /* Example color */
+    border: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Additional styling for responsiveness and aesthetic as per the design */
+  
