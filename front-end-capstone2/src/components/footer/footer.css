@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333; /* Choose your preferred background color */
+    color: white; /* Choose your preferred text color */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section address {
+    font-style: normal;
+    line-height: 1.6;
+  }
+  
+  .footer-section .social-icons {
+    font-size: 24px; /* Adjust icon size as needed */
+  }
+  
+  .social-icons svg {
+    margin-right: 10px;
+  }
+  
+  /* You might need additional styles for links, hover effects, and responsiveness */
+  

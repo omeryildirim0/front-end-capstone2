@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar.js';
 import Hero from './components/hero/Hero.js'; 
 import MenuSpecials from './components/specials/MenuSpecials.js';
 import About from './components/about/About.js';
+import Footer from './components/footer/Footer.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <MenuSpecials />
       <About />
+      <Footer />
       
     </div>
   );
