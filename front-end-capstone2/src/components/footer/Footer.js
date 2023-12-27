@@ -22,7 +22,6 @@ const Footer = () => {
           111 E Chicago<br />
           Illinois 11111<br />
           USA<br />
-          <a href="mailto:lemon@littlelemon.com">jim@rock.com</a><br />
           <a href="">(111) 222-3344</a><br />
           <a href="mailto:littlelemon@bookings.com">littlelemon@bookings.com</a>
         </address>

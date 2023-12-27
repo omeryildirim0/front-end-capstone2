@@ -1,9 +1,12 @@
 import React from 'react';
 import './hero.css'; // Import your CSS file for styling
 import heroImage from './hero.jpg'
+import { useNavigate } from 'react-router-dom'; // Correctly import useNavigate
 
 
 function HeroSection() {
+ 
+ 
   return (
     <div className="hero">
       <div className="hero-content">
@@ -11,7 +14,7 @@ function HeroSection() {
         <p className="restaurant-description">
           A Taste of Freshness &amp; Quality
         </p>
-        <button className="reservation-button">Make a Reservation</button>
+        <button onClick={() => window.location = '/reservation'} className="reservation-button">Make a Reservation</button>
       </div>
       <div className="food-image">
         <img src={heroImage} alt="Delicious Food" />
